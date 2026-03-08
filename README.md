@@ -38,7 +38,7 @@ modern technologies in development, Lab2
 Сделайте коммит и откройте Pull Request в `develop`, но не вливайте
 1. Вернитесь в ветку `develop`. Создайте из неё ветку `feature/move_figures`
 1. В новой ветке сделайте так, чтобы поле `m_offset` было не константным в обеих фигурах.
-Сделайте метод `void setOffset(unsigned int) const` в каждом классе и вызовите этот метод для треугольника `tr` в `main.cpp`. Откройте Pull Request в `develop`, но не вливайте
+Сделайте метод `void setOffset(unsigned int)` в каждом классе и вызовите этот метод для треугольника `tr` в `main.cpp`. Откройте Pull Request в `develop`, но не вливайте
 1. Вернитесь в `develop`. Сделайте ещё одну ветку `refactor/reduce_code_dup`
 1. В этой ветке сделайте функцию `fill(char * str, unsigned int len, char c)` (внутреннюю для `Form.cpp`), которая заполняет `str` значением `c` (плюс терминальный ноль). Используйте её для заполнения переменных `spaces` и `top` в методе `Triangle::draw` и `spaces` в методе `Circle::draw`. Откройте Pull Request в `develop` и влейте его.
 1. Влейте обновлённый `develop` (не забудьте сделать `git pull`) в ветку `refactor/base_figure` и затем влейте Pull Request из этой ветки
